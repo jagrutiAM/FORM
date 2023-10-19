@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(132, 47, 89);
+}
+#cont{
+    background-color: rgb(77, 9, 20);
+}
+#nav{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* gap: 20px; */
+
+}
+a{
+    color: rgb(0, 255, 85);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+background-color: blueviolet;
+color: yellow;
+}
+#menu{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    position: absolute;
+    list-style-type: none;
+    display: none;
+    
+
+    }
+    #drop:hover #menu{
+        display: block;
+        color: blue;
+    }
+
+
+
